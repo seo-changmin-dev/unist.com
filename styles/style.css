@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+
+  border: solid red 1px;
+}
+
+.clear {
+  clear: both;
+}
+
+#title {
+  float: left;
+}
+
+#lang_select {
+  float: right;
+}
+
+#move_page li {
+  float: left;
+
+  list-style-type: none;
+}
+
+#toady_menu li{
+  list-style-type: none;
+}
+
+div {
+  padding: 20px;
+  margin: 20px;
+}
