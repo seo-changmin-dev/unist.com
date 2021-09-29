@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.site_header {
+    display: flex;
+    flex-direction: column;
+}
+
+.header_menu {
+    display: flex;
+}
+
+.main_section {
+    display: flex;
+    flex-direction: column;
+}
+
+.time_info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.meal_provider {
+
+}
+
+.meal_provider .menu {
+    list-style: none;
+}
+
+.site_info .address {
+    list-style: none;
+}
