@@ -197,4 +197,9 @@ body {
     left: 0;
     right: 0;
   }
+
+  .site_info > .address {
+    font-size: var(--small-font);
+  }
+
 }
