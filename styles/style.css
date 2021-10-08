@@ -19,6 +19,7 @@ body {
   padding: 0;
   display: flex;
   flex-direction: column;
+  min-height: 100vh;
 }
 
 /* site_header */
