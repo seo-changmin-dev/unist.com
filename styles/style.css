@@ -147,7 +147,7 @@ body {
 }
 
 .meal_place > .meal_provider > .menu > li{
-  font-size: var(--medium-font);
+  font-size: var(--large-font);
   padding: 1px 0;
 }
 
