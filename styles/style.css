@@ -17,9 +17,6 @@
 body {
   margin: 0;
   padding: 0;
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
 }
 
 /* site_header */
@@ -76,18 +73,18 @@ body {
 
 .main_section > .time_info {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   margin: 0 10px 0 10px;
 }
 
 .main_section > .time_info > .meal {
-  font-size: var(--medium-font);
+  font-size: var(--large-font);
   font-weight: bold;
 }
 
 .main_section > .time_info > .date {
-  font-size: var(--small-font);
+  margin-left: 10px;
+  font-size: var(--medium-font);
 }
 
 /* meal_place */
@@ -138,11 +135,11 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  /* justify-content: center; */
   
   flex: 7;
   margin: 0;
-  padding: 0;
-  margin-top: 5px;
+  padding: 5px 0 0 0;
   
   list-style: none;
   border-left: dashed 3px var(--white-gray-color);
@@ -150,7 +147,6 @@ body {
 
 .meal_place > .meal_provider > .menu > li{
   font-size: var(--large-font);
-  padding: 1px 0;
 }
 
 /* site_info */
@@ -190,13 +186,6 @@ body {
     flex: 40%;
     margin-left: 7px;
     margin-right: 7px;
-  }
-
-  footer {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
   }
 
   .site_info > .address {
