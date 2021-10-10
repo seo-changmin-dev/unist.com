@@ -12,8 +12,8 @@ const minute = today.getMinutes();
 
 const mealTime = document.querySelector('.time_info > .meal')
 // 아침 : 전날 20시~10시 점심 :10~14 저녁: 14:00 ~ 20:00
-if (10 < hour && hour < 14) mealTime.innerText = meal_arr[1];
-else if(14 < hour && hour < 20) mealTime.innerText = meal_arr[2];
+if (10 <= hour && hour <= 14) mealTime.innerText = meal_arr[1];
+else if(14 < hour && hour <= 20) mealTime.innerText = meal_arr[2];
 else mealTime.innerText = meal_arr[0];
 
 const bigDate = month_arr[month] + ' ' + date + '일' + ' ' + day_arr[day] + ' ';

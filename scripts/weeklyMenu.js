@@ -391,9 +391,10 @@ const weekly_kyosik = [
 let eatDay = day;
 if (hour >= 20) eatDay = (eatDay + 1) % 7;
 
+// 0 = 조식, 1 = 중식, 2 = 석식
 let eatHour = 0;
-if (10 < hour && hour < 14) eatHour = 1;
-else if(14 < hour && hour < 20) eatHour = 2;
+if (10 <= hour && hour <= 14) eatHour = 1;
+else if(14 < hour && hour <= 20) eatHour = 2;
 
 // 긱식 업데이트
 const giksik = document.querySelector('.giksik').querySelectorAll('.menu');
